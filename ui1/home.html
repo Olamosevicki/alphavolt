@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            height:600px ;
+            background-color: black;
+            background-image: linear-gradient( to bottom, indigo ,rgb(51, 24, 51),black);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        p{
+            color: rgb(151, 159, 166);
+        }
+        nav{
+            display: flex;
+        justify-content:space-around;
+        margin-top: 10px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin-top: 11px;
+        }
+        li{
+           padding: 5px;
+           
+        }
+        button{
+            background-color: rgb(250, 77, 15);
+            width: 100px;
+            height:50px;
+            border: none;
+            border-radius: 25px;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        .logo{
+            margin-top: 13px;
+            height:50px;
+            width:70px;
+        }
+        .diff{
+            background-color: rgba(250, 78, 15, 0.011);
+            width: 100px;
+            height:50px;
+            border: none;
+            border-radius: 25px;
+        }
+    .one{
+       margin-left: 5%;
+       width: 500px;
+       display: flex;
+       margin-top: 10px;
+       
+      
+    }
+    .cat{
+        height: 450px;
+        width: 450px;
+        margin-left: 300px;
+    
+    }
+    .tet{
+        animation: fadein 5s;
+         animation-name: texx;
+    }
+   
+    @keyframes texx {
+        0% {opacity:0; }
+        100% {opacitty:1 ;}
+    }
+    .two{
+        margin-top: -5px;
+        width:80%;
+        height:170px;
+        clip-path: polygon( 0 20% , 100% 0, 100% 100%,0 100% );
+        background-color: rgba(30, 30, 63, 0.35);
+        margin-left: 80px;
+       border-top-left-radius:15px ;
+       border-top-right-radius:15px ;
+       border-bottom-left-radius:15px ;
+       border-bottom-right-radius:15px ;
+       display: flex;
+       border: none;
+       justify-content: space-between;
+        
+        
+    }
+    .lf{
+        text-align: left;
+        margin: 50px;
+    
+    }
+    .rg{
+        text-align:left ;
+        margin-top: 20px;
+        margin-right:20px;
+    
+    }
+    .three{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .on{
+        height: 400px;
+        width: 390px;
+        background-color: rgba(30, 30, 63, 0.35);
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+    }
+    .on>img{
+        margin-top:-30px;
+        height: 240px;
+        width: 200px;
+    }
+    </style>
+</head>
+<body>
+     <nav>
+        <img src="gameicon.png" zalt="logo" class="logo">
+        <ul>
+           
+            <li><a href="#">Home </a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">themes</a></li>
+          
+        </ul>
+        <div class="sig">
+            <span><button class="diff"><a href="#"> sign in</a></button></span>
+            <button><a href="#">sign up</a></button>
+        </div>
+      
+     </nav>
+
+     <div class="one">
+        <div class="text">
+            <h1 class="tet" style="font-size:70px ;"> PLAY <br> TO <br> EARN <br></h1>
+           <br>
+           <br>
+           <p style="font-size:12px ;color: rgb(151, 159, 166); ;">sometimes you can take the the credit card out of the game 
+           but you cant take the game out the people </p>
+           <br>
+           <br>
+           <button>play for free</button> <svg><circle></circle></svg>
+        </div>
+    
+        <img src="soldier.png" alt="" class="cat">
+        
+     </div>
+        
+     </div>
+     <div class="two">
+     <div class="lf"><p>APPS FOR KINGS</p> <br>
+          <h1>How It Works</h1></div>
+     <div class="rg">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. <br> Mollitia accusantium doloremque quaerat
+             possimus sunt <br> molestiae, inventore similique </p>
+             <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit.  <br>Mollitia accusantium doloremque quaerat
+             possimus sunt  <br>molestiae, inventore similique </p>
+     </div>
+     </div>
+     <br>
+     <br>
+      <br>
+     <h2 style="text-align:center;">Top Characters</h2>
+     <div class="three">
+       
+        <div class="on">
+            <img src="streetfighter.png" alt="">
+            <br>
+            <br>
+            <h3> The Sandbox 3D</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>  
+                 elit. Repellat fuga aliquid natus,
+                 dolores tenetur</p>
+                 <br>
+                 <button>click here</button>
+        </div>
+        <div class="on">
+            <img src="soldier.png" alt="">
+            <br>
+            <br>
+            <h3>Futuristic 3D Models</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing  <br> 
+                elit. Repellat fuga aliquid natus,
+                 dolores tenetur</p>
+                 <br>
+                 <button>click here</button>
+        </div>
+        <div class="on">
+            <img src="swordsman.png" alt="">
+            <br>
+            <br>
+            <h3> Play-To-Earn-Game</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>  
+                 elit. Repellat fuga aliquid natus,
+                 dolores tenetur </p>
+                 <br>
+                 <button>click here</button>
+        </div>
+     </div>
+     <div class="four"></div>
+     <div class="five"></div>
+     <div class="six"></div>
+
+     <script>
+        var bod = document.querySelector ('body')
+        var tx = document.querySelector ('.tet')
+       
+     </script>
+</body>
+</html>
